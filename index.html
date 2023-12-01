@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Customizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chocolate Customizer</h1>
+
+        <div id="chocolate-options">
+            <!-- Chocolate options will be dynamically added here -->
+        </div>
+
+        <div id="selected-chocolates">
+            <h2>Your Selection:</h2>
+            <ul id="selected-list"></ul>
+            <p id="total-price">Total Price: $0.00</p>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p>You can only select up to 8 chocolates.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
